@@ -6,10 +6,10 @@ from os import environ
 # For Any Kind Of Error Ask Us In Support Group @Silicon_Botz 
 
 class Config:
-    API_ID = environ.get("API_ID", "")
-    API_HASH = environ.get("API_HASH", "")
-    BOT_TOKEN = environ.get("BOT_TOKEN", "") 
-    BOT_SESSION = environ.get("BOT_SESSION", "Auto_Forward") 
+    API_ID = environ.get("API_ID", "22807751")
+    API_HASH = environ.get("API_HASH", "adbbccf8eed67602e3c13f2524272ae6")
+    BOT_TOKEN = environ.get("BOT_TOKEN", "7047349539:AAFlde6z1cZIbTEB1wUdtYN9v-wOZ8Do_sQ") 
+    BOT_SESSION = environ.get("BOT_SESSION", "Forwardbase_25) 
     DATABASE_URI = environ.get("DATABASE", "")
     DATABASE_NAME = environ.get("DATABASE_NAME", "")
     BOT_OWNER_ID = [int(id) for id in environ.get("BOT_OWNER_ID", '').split()]
