@@ -9,7 +9,7 @@ class Config:
     API_ID = environ.get("API_ID", "22807751")
     API_HASH = environ.get("API_HASH", "adbbccf8eed67602e3c13f2524272ae6")
     BOT_TOKEN = environ.get("BOT_TOKEN", "7762159903:AAGLo582RUp5mI3fywXjowWPOXna7I2xQhU") 
-    BOT_SESSION = environ.get("BOT_SESSION", "Evecrgrg) 
+    BOT_SESSION = environ.get("BOT_SESSION", "Evecrgrg") 
     DATABASE_URI = environ.get("DATABASE", "mongodb+srv://godsuraj564:Rb9HKktUHIN5qAnD@cluster0.p5pp1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     DATABASE_NAME = environ.get("DATABASE_NAME", "godsuraj564")
     BOT_OWNER_ID = [int(id) for id in environ.get("BOT_OWNER_ID", '5694158462').split()]
